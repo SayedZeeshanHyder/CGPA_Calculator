@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".sem1frag">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem 1 Calculator"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Chemmarks1"
+        android:inputType="number"
+        android:hint="Enter Chemistry Marks" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mechmarks1"
+        android:inputType="number"
+        android:hint="Enter Mechanics Marks" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Beemarks1"
+        android:inputType="number"
+        android:hint="Enter Bee Marks" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Phymarks1"
+        android:inputType="number"
+        android:hint="Enter Physics Marks" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mathsmarks1"
+        android:inputType="number"
+        android:hint="Enter Mathematics Marks" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/sem1butt"
+        android:backgroundTint="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Result:"
+        android:id="@+id/result"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
